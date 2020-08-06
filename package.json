@@ -1,0 +1,30 @@
+{
+  "name": "node-google-tts",
+  "version": "1.0.0",
+  "description": "Simple library for google text to speech",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IldarSham/node-google-tts.git"
+  },
+  "keywords": [
+    "google",
+    "tts",
+    "api"
+  ],
+  "files": [
+    "lib/*"
+  ],
+  "author": "IldarSham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IldarSham/node-google-tts/issues"
+  },
+  "homepage": "https://github.com/IldarSham/node-google-tts#readme",
+  "dependencies": {
+    "needle": "^2.5.0"
+  }
+}
