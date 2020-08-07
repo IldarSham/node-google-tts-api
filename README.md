@@ -1,4 +1,6 @@
 # node-google-tts
+[Документация на русском](https://github.com/syleront/node-shikimori-api/blob/master/README-RU.md)
+
 Simple node.js library for google text to speech
 
 ## Installation
