@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IldarSham/node-google-tts.git"
+    "url": "git+https://github.com/IldarSham/node-google-tts-api.git"
   },
   "keywords": [
     "google",
@@ -22,9 +22,9 @@
   "author": "IldarSham",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IldarSham/node-google-tts/issues"
+    "url": "https://github.com/IldarSham/node-google-tts-api/issues"
   },
-  "homepage": "https://github.com/IldarSham/node-google-tts#readme",
+  "homepage": "https://github.com/IldarSham/node-google-tts-api#readme",
   "dependencies": {
     "needle": "^2.5.0"
   }
