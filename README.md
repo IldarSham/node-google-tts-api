@@ -1,6 +1,4 @@
 # node-google-tts
-[Документация на русском](https://github.com/syleront/node-shikimori-api/blob/master/README-RU.md)
-
 Simple node.js library for google text to speech
 
 ## Installation
@@ -48,5 +46,5 @@ tts.get({
 ```
 
 ## Supported languages
-Google tts supports the following language codes:<br>
+Google tts service supports the following language codes:<br>
 https://github.com/IldarSham/node-google-tts/blob/master/supported-languages.txt
