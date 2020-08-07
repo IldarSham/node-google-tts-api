@@ -1,7 +1,7 @@
 {
   "name": "node-google-tts",
   "version": "1.0.0",
-  "description": "Simple library for google text to speech",
+  "description": "Simple node.js library for google text to speech",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
