@@ -9,9 +9,10 @@ npm i node-google-tts-api
 ## Usage
 
 ```js
-const fs = require('fs');
 const googleTTS = require('node-google-tts-api');
 const tts = new googleTTS();
+
+const fs = require('fs');
 
 tts.get({
   text: "hello world",
@@ -32,17 +33,8 @@ tts.get({
   limit_bypass: true // required parameter
 }).then(arr => {
   // returns array with mp3 audio src buffers
-  
-  let files = [];
-  for (let i = 0; i < arr.length; i++) {
-    let name = `./audio${i}.mp3`;
-    
-    fs.writeFileSync(name, arr[i]);
-    files.push(name);
-  }
-  
-  // Concat audio files
-  tts.concat(files, "out.mp3"); 
+  tts.concat(arr); // Concat audio files
+  fs.writeFileSync("./audio.mp3", data);
 });
 ```
 
