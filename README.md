@@ -1,5 +1,5 @@
 # node-google-tts
-Simple library for google text to speech
+Simple node.js library for google text to speech
 
 ## Installation
 ```cmd
