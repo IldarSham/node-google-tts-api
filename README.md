@@ -33,7 +33,7 @@ tts.get({
   limit_bypass: true // required parameter
 }).then(arr => {
   // returns array with mp3 audio src buffers
-  let data = tts.concat(arr); // Concat audio files
+  let data = tts.concat(arr); // concat audio files
   fs.writeFileSync("./audio.mp3", data);
 });
 ```
