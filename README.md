@@ -1,5 +1,5 @@
 # node-google-tts
-Simple node.js library for google text to speech
+Simple node.js library for google text to speech service
 
 ## Installation
 ```cmd
@@ -46,5 +46,5 @@ tts.get({
 ```
 
 ## Supported languages
-Google tts service supports the following language codes:<br>
+Google text to speech service supports the following language codes:<br>
 https://github.com/IldarSham/node-google-tts/blob/master/supported-languages.txt
