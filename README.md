@@ -1,15 +1,15 @@
-# node-google-tts
+# node-google-tts-api
 Simple node.js library for google text to speech service
 
 ## Installation
 ```cmd
-npm i node-google-tts 
+npm i node-google-tts-api 
 ```
 
 ## Usage
 
 ```js
-const googleTTS = require('google-tts');
+const googleTTS = require('node-google-tts-api ');
 const tts = new googleTTS();
 
 tts.get({
