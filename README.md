@@ -46,5 +46,5 @@ tts.get({
 ```
 
 ## Supported languages
-Google tts supports the following language codes:
+Google tts supports the following language codes:<br>
 https://github.com/IldarSham/node-google-tts/blob/master/supported-languages.txt
