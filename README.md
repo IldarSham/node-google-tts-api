@@ -9,6 +9,7 @@ npm i node-google-tts-api
 ## Usage
 
 ```js
+const fs = require('fs');
 const googleTTS = require('node-google-tts-api');
 const tts = new googleTTS();
 
