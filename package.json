@@ -20,7 +20,7 @@
     "lib/*"
   ],
   "author": "IldarSham",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IldarSham/node-google-tts-api/issues"
   },
