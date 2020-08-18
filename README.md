@@ -15,7 +15,7 @@ const tts = new googleTTS();
 const fs = require('fs');
 
 tts.get({
-  text: "hello world",
+  text: "hello, world",
   lang: "en"
 }).then(data => {
   // returns mp3 audio src buffer
