@@ -12,8 +12,6 @@ npm i node-google-tts-api
 const googleTTS = require('node-google-tts-api');
 const tts = new googleTTS();
 
-const fs = require('fs');
-
 tts.get({
   text: "hello, world",
   lang: "en"
